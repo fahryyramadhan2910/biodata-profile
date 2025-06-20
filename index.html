@@ -1,173 +1,21 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profil M Fahry Ramadhan</title>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-    body {
-      margin: 0;
-      font-family: 'Quicksand', sans-serif;
-      background: linear-gradient(to bottom right, #e0f7fa, #e1bee7);
-      color: #333;
-      animation: fadeIn 1s ease;
-    }
-    header {
-      background: #6a1b9a;
-      color: white;
-      padding: 40px;
-      text-align: center;
-      animation: fadeInDown 1s ease;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 3em;
-    }
-    header p {
-      font-size: 1.2em;
-      opacity: 0.9;
-    }
-    .container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 2rem;
-      padding: 2rem;
-      max-width: 1200px;
-      margin: auto;
-    }
-    .section {
-      background: white;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .section:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-    }
-    .section h2 {
-      color: #6a1b9a;
-      border-bottom: 2px solid #ce93d8;
-      padding-bottom: 5px;
-    }
-    .biodata div {
-      display: flex;
-      margin-bottom: 8px;
-    }
-    .label {
-      width: 100px;
-      font-weight: bold;
-    }
-    .colon {
-      width: 10px;
-    }
-    .section ul {
-      padding-left: 1.2rem;
-      list-style-type: circle;
-    }
-    .section a {
-      color: #8e24aa;
-      text-decoration: none;
-    }
-    .section a:hover {
-      text-decoration: underline;
-    }
-    .animation {
-      text-align: center;
-      padding: 2rem 0;
-    }
-    .animation img {
-      max-width: 300px;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-      animation: float 3s ease-in-out infinite;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #4a148c;
-      color: white;
-      margin-top: 2rem;
-    }
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-    @keyframes fadeInDown {
-      from { opacity: 0; transform: translateY(-20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-    @keyframes float {
-      0%, 100% {
-        transform: translateY(0);
-      }
-      50% {
-        transform: translateY(-10px);
-      }
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profil Sederhana</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>M FAHRY RAMADHAN</h1>
-    <p>Programmer rookie | Java & Python</p>
-  </header>
-
   <div class="container">
-    <div class="section biodata">
-      <h2>📋 Biodata</h2>
-      <div><span class="label">Nama</span><span class="colon">:</span><span> M Fahry Ramadhan</span></div>
-      <div><span class="label">TTL</span><span class="colon">:</span><span> Medan, 29 Oktober 2003</span></div>
-      <div><span class="label">Alamat</span><span class="colon">:</span><span> Jln Perhubungan, Desa Cinta Rakyat</span></div>
-      <div><span class="label">No. HP</span><span class="colon">:</span><span> 0858-3553-8553</span></div>
-    </div>
-
-    <div class="section medsos">
-      <h2>🔗 Media Sosial</h2>
-      <ul>
-        <li>Instagram : <a href="https://instagram.com/mfahryrmdhn" target="_blank">mfahryrmdhn</a></li>
-        <li>Facebook  : <a href="https://facebook.com/realfahry" target="_blank">Fahry Ramadhan</a></li>
-        <li>Twitter   : None </li>
-      </ul>
-    </div>
-
-    <div class="section skills">
-      <h2>💻 Skill</h2>
-      <ul>
-        <li>Java Dasar: Struktur pemrograman, variabel, perulangan</li>
-        <li>Python Dasar: Kalkulator, konversi suhu, operasi matematika</li>
-      </ul>
-    </div>
-
-    <div class="section portfolio">
-      <h2>🧠 Portofolio</h2>
-      <ul>
-        <li>Aplikasi kalkulator Python sederhana</li>
-        <li>Website biodata pribadi dengan HTML + CSS</li>
-      </ul>
-    </div>
-
-    <div class="section hobby">
-      <h2>🎮 Hobi</h2>
-      <ul>
-        <li>Bermain game FPS seperti Valorant, PoinBlank, Call of Duty</li>
-        <li>Menikmati game cerita (story) seperti The Last of Us</li>
-        <li>Mendengarkan musik sampai tertidur nyenyak</li>
-      </ul>
-    </div>
+    <img src="https://via.placeholder.com/150" alt="Foto Profil" class="profile-img" />
+    <h1>Halo, saya Fahry</h1>
+    <p>Saya seorang pelajar yang tertarik pada dunia teknologi dan pemrograman.</p>
+    <ul>
+      <li>🌍 Asal: Medan</li>
+      <li>🎮 Hobi: Main game FPS & Story</li>
+      <li>📱 IG: <a href="https://instagram.com/">@username</a></li>
+    </ul>
   </div>
- <div class="animation">
-    <h2>🎨Gambar Anime biar keren dkit</h2>
-    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDZ2dzdoazMzczNvajFvYXRkY291Ym5weGZ4MG04ZHFhMjJyazE1aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WwGrm4cUFnRRcG6wMH/giphy.gif" alt="GIF Coding"/>
-  </div>
-
-  <footer>
-    <p>&copy; 2025 M Fahry Ramadhan. All rights reserved.</p>
-  </footer>
 </body>
 </html>
